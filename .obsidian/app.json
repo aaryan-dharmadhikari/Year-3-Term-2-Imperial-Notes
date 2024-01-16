@@ -1,5 +1,7 @@
 {
   "vimMode": true,
   "userIgnoreFilters": [],
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "root",
+  "attachmentFolderPath": "Screenshots"
 }

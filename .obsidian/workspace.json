@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Performance Engineering/Tutorial 1.md",
+                "file": "Systems Performance Engineering/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -106,8 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "1e7687f3fdd02a32",
@@ -123,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Performance Engineering/Tutorial 1.md",
+                "file": "Systems Performance Engineering/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Performance Engineering/Tutorial 1.md",
+                "file": "Systems Performance Engineering/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Systems Performance Engineering/Tutorial 1.md"
+                "file": "Systems Performance Engineering/Introduction.md"
               }
             }
           }
@@ -184,27 +183,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a4634aa430034853",
+  "active": "64430ecee475179a",
   "lastOpenFiles": [
-    "Custom Computing/Systems and Customisation.md",
-    "Systems Performance Engineering/Tutorial 1.md",
+    "Screenshots/Pasted image 20240116091332.png",
     "Systems Performance Engineering/Introduction.md",
+    "Systems Performance Engineering/Tutorial 1.md",
+    "Screenshots/Pasted image 20240116100319.png",
+    "Screenshots/Pasted image 20240116094642.png",
+    "Screenshots/Pasted image 20240116094043.png",
+    "Screenshots/Pasted image 20240116093810.png",
+    "Screenshots/Pasted image 20240116085242.png",
+    "Screenshots/Pasted image 20240115215639.png",
+    "Screenshots/Pasted image 20240115214754.png",
+    "Screenshots/Pasted image 20240115214355.png",
+    "Screenshots/Pasted image 20240115214214.png",
+    "Screenshots",
+    "screenshots",
+    "Custom Computing/Systems and Customisation.md",
     "Computer Vision/Image Filtering.md",
     "Computer Vision/Image Formation.md",
     "Computer Vision/Introduction.md",
     "Custom Computing/Custom Computing Technologies.md",
-    "Pasted image 20240116100319.png",
-    "Pasted image 20240116094642.png",
-    "Pasted image 20240116094043.png",
-    "Pasted image 20240116093810.png",
-    "Pasted image 20240116091332.png",
-    "Pasted image 20240116085242.png",
     "Systems Performance Engineering",
     "Untitled 1.md",
-    "Pasted image 20240115215639.png",
-    "Pasted image 20240115214754.png",
-    "Pasted image 20240115214355.png",
-    "Pasted image 20240115214214.png",
     "Custom Computing",
     "Computer Vision",
     "Welcome.md",
