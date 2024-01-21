@@ -123,7 +123,7 @@ There are two types:
 **Identifying bottlenecks for an entire complex software system is practically infeasible**
 	Instead we focus on the **performance-dominating** code path which we use to limit optimisation complexity
 		- **Critical path** must be sequential (Amdahl's law)
-		- **Hot path** system spends most of it's time in (most frequent)
+		- **Hot path** is path which takes the most time
 
 **Improving performance**
 we want to:

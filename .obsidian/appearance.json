@@ -2,5 +2,7 @@
   "accentColor": "",
   "enabledCssSnippets": [
     "remove_png"
-  ]
+  ],
+  "theme": "obsidian",
+  "cssTheme": "Obsidian gruvbox"
 }

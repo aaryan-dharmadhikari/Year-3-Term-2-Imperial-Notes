@@ -4,59 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a13f28795dd42c9d",
+        "id": "f5fb56c3bf29c543",
         "type": "tabs",
         "children": [
           {
-            "id": "42491bc63b6a9b39",
+            "id": "fe9017197ddc50d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Vision/Image Filtering.md",
+                "file": "Computer Vision/Image Filtering I.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f023af8d1fc3b460",
+            "id": "b33bb6fbbce60a8c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Systems Performance Engineering/Introduction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a6cdef95b78a803c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systems Performance Engineering/Tutorial 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "64430ecee475179a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systems Performance Engineering/Introduction.md",
+                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Performance Engineering/Introduction.md",
+                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Performance Engineering/Introduction.md",
+                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Systems Performance Engineering/Introduction.md"
+                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md"
               }
             }
           }
@@ -183,27 +159,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "64430ecee475179a",
+  "active": "b33bb6fbbce60a8c",
   "lastOpenFiles": [
-    "Screenshots/Pasted image 20240116091332.png",
+    "Screenshots/Pasted image 20240120175859.png",
+    "Screenshots/Pasted image 20240120172554.png",
+    "Screenshots/Pasted image 20240120172519.png",
+    "Screenshots/Pasted image 20240120171752.png",
+    "Computer Vision/Image Filtering I.md",
+    "Systems Performance Engineering/Performance Tracing & Profiling.md",
+    "Computer Vision/Image Filtering II.md",
+    "Computer Vision/Tutorial 1.md",
+    "Screenshots/Pasted image 20240118101433.png",
+    "Screenshots/Pasted image 20240118101251.png",
+    "Screenshots/Pasted image 20240118094619.png",
+    "Screenshots/Pasted image 20240118094559.png",
+    "Screenshots/Pasted image 20240118094059.png",
+    "Screenshots/Pasted image 20240118094051.png",
+    "Screenshots/Pasted image 20240118093901.png",
+    "Custom Computing/Custom Computing Technologies.md",
+    "Custom Computing/Parametric Design Description.md",
+    "Computer Vision/Image Formation.md",
+    "README.md",
+    "Custom Computing/Systems and Customisation.md",
     "Systems Performance Engineering/Introduction.md",
+    "Distributed Algorithms/Introduction.md",
     "Systems Performance Engineering/Tutorial 1.md",
-    "Screenshots/Pasted image 20240116100319.png",
-    "Screenshots/Pasted image 20240116094642.png",
-    "Screenshots/Pasted image 20240116094043.png",
-    "Screenshots/Pasted image 20240116093810.png",
-    "Screenshots/Pasted image 20240116085242.png",
-    "Screenshots/Pasted image 20240115215639.png",
-    "Screenshots/Pasted image 20240115214754.png",
-    "Screenshots/Pasted image 20240115214355.png",
-    "Screenshots/Pasted image 20240115214214.png",
+    "Untitled",
+    "Distributed Algorithms",
     "Screenshots",
     "screenshots",
-    "Custom Computing/Systems and Customisation.md",
-    "Computer Vision/Image Filtering.md",
-    "Computer Vision/Image Formation.md",
     "Computer Vision/Introduction.md",
-    "Custom Computing/Custom Computing Technologies.md",
     "Systems Performance Engineering",
     "Untitled 1.md",
     "Custom Computing",

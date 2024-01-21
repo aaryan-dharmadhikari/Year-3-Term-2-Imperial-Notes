@@ -47,4 +47,4 @@ Graphics vs Vision
 		![[Pasted image 20240115103315.png]]
 	Photorealistic games can be used to synthesise training data with existing semantic annotations, avoiding costs for labelling and categorising datasets etc.
 
-NEXT [[Image Filtering]]
+NEXT [[Image Filtering I]]

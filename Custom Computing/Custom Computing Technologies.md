@@ -1,3 +1,4 @@
+START
 ## Motivation
 Everything thus far has been involving general purpose computing; is always efficient?
 ![[Pasted image 20240115182654.png]]
