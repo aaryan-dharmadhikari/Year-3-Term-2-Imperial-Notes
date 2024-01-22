@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f5fb56c3bf29c543",
+        "id": "85b179e5d030acad",
         "type": "tabs",
         "children": [
           {
-            "id": "fe9017197ddc50d4",
+            "id": "c385a47f33a29779",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Vision/Image Filtering I.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b33bb6fbbce60a8c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "1e7687f3fdd02a32",
@@ -98,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Systems Performance Engineering/Performance Tracing & Profiling.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,23 +139,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b33bb6fbbce60a8c",
+  "active": "c385a47f33a29779",
   "lastOpenFiles": [
-    "Screenshots/Pasted image 20240120175859.png",
-    "Screenshots/Pasted image 20240120172554.png",
-    "Screenshots/Pasted image 20240120172519.png",
-    "Screenshots/Pasted image 20240120171752.png",
-    "Computer Vision/Image Filtering I.md",
-    "Systems Performance Engineering/Performance Tracing & Profiling.md",
     "Computer Vision/Image Filtering II.md",
+    "Edge Detection.md",
+    "Screenshots/Pasted image 20240122104726.png",
+    "Screenshots/Pasted image 20240122104657.png",
+    "Screenshots/Pasted image 20240122104042.png",
+    "Screenshots/Pasted image 20240122104029.png",
+    "Screenshots/Pasted image 20240122104007.png",
+    "Screenshots/Pasted image 20240122103855.png",
+    "Screenshots/Pasted image 20240122103828.png",
+    "Screenshots/Pasted image 20240122103801.png",
+    "Screenshots/Pasted image 20240122103337.png",
+    "Screenshots/Pasted image 20240122103322.png",
+    "Systems Performance Engineering/Performance Tracing & Profiling.md",
+    "Systems Performance Engineering/Tutorial 1.md",
+    "Computer Vision/Image Filtering I.md",
     "Computer Vision/Tutorial 1.md",
-    "Screenshots/Pasted image 20240118101433.png",
-    "Screenshots/Pasted image 20240118101251.png",
-    "Screenshots/Pasted image 20240118094619.png",
-    "Screenshots/Pasted image 20240118094559.png",
-    "Screenshots/Pasted image 20240118094059.png",
-    "Screenshots/Pasted image 20240118094051.png",
-    "Screenshots/Pasted image 20240118093901.png",
     "Custom Computing/Custom Computing Technologies.md",
     "Custom Computing/Parametric Design Description.md",
     "Computer Vision/Image Formation.md",
@@ -183,7 +164,6 @@
     "Custom Computing/Systems and Customisation.md",
     "Systems Performance Engineering/Introduction.md",
     "Distributed Algorithms/Introduction.md",
-    "Systems Performance Engineering/Tutorial 1.md",
     "Untitled",
     "Distributed Algorithms",
     "Screenshots",
