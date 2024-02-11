@@ -1,0 +1,2 @@
+**False Sharing**
+same addr in eg L2 gets updated and written to per core; Core 1 makes a modification to L2; Now go from shared to invalid; Need to propagate across cores via (usually) QPI or some other bus; now Exclusive (and in invalid for Core 2). 

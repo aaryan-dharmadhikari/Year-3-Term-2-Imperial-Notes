@@ -4,15 +4,67 @@
     "type": "split",
     "children": [
       {
-        "id": "85b179e5d030acad",
+        "id": "71c93e518cd93af5",
         "type": "tabs",
         "children": [
           {
-            "id": "c385a47f33a29779",
+            "id": "33c7cea88d79d187",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision/Feature Description I.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d7c27fcba787f0f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Custom Computing/Homomorphism and bit-level pipelining.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3705d4d310aa85b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Custom Computing/State Machines and Beyond.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "423bf63991f24aac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Science of Learning.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b875a80e97ee3853",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Vision/Introduction.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Vision/Feature Description I.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Vision/Feature Description I.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +173,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Vision/Feature Description I.md"
+              }
             }
           }
         ]
@@ -139,43 +195,52 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c385a47f33a29779",
+  "active": "33c7cea88d79d187",
   "lastOpenFiles": [
-    "Computer Vision/Image Filtering II.md",
-    "Edge Detection.md",
-    "Screenshots/Pasted image 20240122104726.png",
-    "Screenshots/Pasted image 20240122104657.png",
-    "Screenshots/Pasted image 20240122104042.png",
-    "Screenshots/Pasted image 20240122104029.png",
-    "Screenshots/Pasted image 20240122104007.png",
-    "Screenshots/Pasted image 20240122103855.png",
-    "Screenshots/Pasted image 20240122103828.png",
-    "Screenshots/Pasted image 20240122103801.png",
-    "Screenshots/Pasted image 20240122103337.png",
-    "Screenshots/Pasted image 20240122103322.png",
-    "Systems Performance Engineering/Performance Tracing & Profiling.md",
-    "Systems Performance Engineering/Tutorial 1.md",
-    "Computer Vision/Image Filtering I.md",
-    "Computer Vision/Tutorial 1.md",
-    "Custom Computing/Custom Computing Technologies.md",
+    "Computer Vision/Introduction.md",
+    "Science of Learning.md",
+    "Custom Computing/State Machines and Beyond.md",
+    "Screenshots/Pasted image 20240207104350.png",
+    "Screenshots/Pasted image 20240207104226.png",
+    "Screenshots/Pasted image 20240207104220.png",
+    "Screenshots/Pasted image 20240207103822.png",
+    "Screenshots/Pasted image 20240207103538.png",
+    "Screenshots/Pasted image 20240207103518.png",
+    "Screenshots/Pasted image 20240207103508.png",
+    "Systems Performance Engineering/Efficient Code.md",
+    "Screenshots/Pasted image 20240207102233.png",
+    "Screenshots/Pasted image 20240207101732.png",
+    "Screenshots/Pasted image 20240207101030.png",
+    "Custom Computing/Pipelining- clustering and slowdown.md",
     "Custom Computing/Parametric Design Description.md",
-    "Computer Vision/Image Formation.md",
-    "README.md",
+    "Custom Computing/Sequential Design and Pipelining.md",
+    "Custom Computing/Grid components and Combinators.md",
+    "Custom Computing/Custom Computing Technologies.md",
+    "Custom Computing/Converse, Conjugate and Composition.md",
+    "Custom Computing/Homomorphism and bit-level pipelining.md",
     "Custom Computing/Systems and Customisation.md",
-    "Systems Performance Engineering/Introduction.md",
+    "Custom Computing/Reasoning and Specialisation.md",
+    "Systems Performance Engineering/Revision Questions (Pirk).md",
+    "Systems Performance Engineering/Tutorial 1.md",
+    "Systems Performance Engineering/Performance Tracing & Profiling.md",
+    "Systems Performance Engineering/Modelling.md",
+    "Computer Vision/Feature Description II.md",
+    "Computer Vision/Image Classification I.md",
+    "Computer Vision/Feature Description I.md",
+    "Computer Vision/Interest Point Detection I.md",
+    "Computer Vision/Interest Point Detection II.md",
+    "Computer Vision/Tutorial 1.md",
+    "Computer Vision/Hough Transformations.md",
     "Distributed Algorithms/Introduction.md",
+    "Computer Vision/Image Filtering I.md",
     "Untitled",
     "Distributed Algorithms",
     "Screenshots",
     "screenshots",
-    "Computer Vision/Introduction.md",
     "Systems Performance Engineering",
-    "Untitled 1.md",
     "Custom Computing",
     "Computer Vision",
-    "Welcome.md",
     "Untitled.canvas",
-    "create a link.md",
     "Untitled 1.canvas"
   ]
 }

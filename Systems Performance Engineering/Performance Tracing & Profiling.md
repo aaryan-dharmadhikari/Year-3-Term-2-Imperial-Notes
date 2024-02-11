@@ -12,14 +12,14 @@ After evaluating performance and concluding it is insufficient, we must identify
 	- package sent
 - Complex events
 	- cache line evicted from L1 to L2
-	- instruction aborted due to misspeculation
-	- Evants have an optional payload
-- Eventas have an accuracy: its payload/attributes may be numeric and thus subject to measurement
+	- instruction aborted due to mis-speculation
+	- Events have an optional payload
+- Events have an accuracy: its payload/attributes may be numeric and thus subject to measurement
 
 **What can you do with events**
 - Event sources have:
 	- Generator: observes changes of the system state
-	- Comnsumer:
+	- Consumer: processes changes
 They can be:
 - online: while process is running
 - offline: dumps events without analysing
@@ -84,9 +84,10 @@ this is known as:
 	- More accurate as you define the semantics; less noisy as a result, semantics are determinsitic
 	- Tricky to interpret as we are more interested in time than function calls
 **Quantization errors**
-- Interval resolution is limited (usually to single clock cycles but sometimes more). Fro example:
+- Interval resolution is limited (usually to single clock cycles but sometimes more). For example:
 	- CPU can only record jump instructions every fifth CPU cycle
 	- It may be that an instruction is misattributed to a problem as recorded later than executed
+	- Async in CPU pipeline; not sure if multiple asynchronously retired instrs can be attributed to a cache miss or the new instrs that replace it
 - Time is (practically) continuous  
 - This introduces "quantisation errors/biases"
 	- E.g., costs being attributed to the wrong state
@@ -94,21 +95,21 @@ this is known as:
 
 **Indirect tracing**
 - Idea: Some trace events are "dominated" by others (executed depending on their outcome)
+	- *Think of dominating as being the parent of some subsequent code*
 	- Think of it as intervals defined by the execution flow
 	- For example, control-flow instructions (if, else, for, while) dominate non-control-flow instructions (jumps are expensive!)
 	- By figuring out control flow path taken, we may gain insight into performance and let it direct what events to sample (eg where a jump went) and reverse engineer trace from that
-	- reduce overhead (sometimes)
+	- can be used to reduce overhead (sometimes)
 	- Fidelity and accuracy usually good (depending on the event and the indirection)
-
 ## Profiling
-*A characterization of a system in terms of the resources it spends in certain states.*
+*A characterisation of a system in terms of the resources it spends in certain states.*
 - Basically taking a trace and performing some aggregation over it
-	- This can be global- how long did th eprogram take end to end?
-		- usually total cache misses, total CPU cyles, …
+	- This can be global- how long did the program take end to end?
+		- usually total cache misses, total CPU cycles, …
 	- Or broken down by some other event
 		- Cycles per instruction, cache misses per line of code
-- **Information is lost** and it takes though as to what metrics we care about
-- Provides post-mortem for easier interpretation, congitive load too high for tracing
+- **Information is lost** and it takes thought as to what metrics we care about
+- Provides post-mortem for easier interpretation, cognitive load too high for tracing
 - lighter on the runtime in reduce perturbation (assuming aggregating is cheaper than dumping)
 	- Better to spend CPU cycles aggregating event and writing it to memory, memory access usually more expensive than CPU cycles
 
@@ -118,7 +119,7 @@ this is known as:
 - Y-axis shows stack depth of a frame
 - Each rectangle represents a stack frame
 - Width of a box is proportional to the number of collected samples
-- Colors are usually not significant
+- Colours are usually not significant
 - Boxes collapsed, not necessarily one singular, contiguous function call
 
 ## Event Sources
@@ -136,10 +137,10 @@ this is known as:
 - Emulator:  
 	- a funky hybrid, minimal perturbation but usually not scalable
 
-**Instrumnetation**
+**Instrumentation**
 - Augment program with event logging code
 - Advantages
-	- No need for Hhardware sipport
+	- No need for hardware support
 	- very flexible
 - Disadvantages
 	- Overhead is high: vfunc calls
@@ -157,7 +158,9 @@ this is known as:
 				- needs recompilation for selective enabling
 	- Automatic source-level
 		- Usually compiler-supported  
-		- Source-to-source rewriting is possible 
+		- Source-to-source rewriting is possible
+			- eg in JS, take a program, minimise all variables to save traffic
+			- clang has support for this, transform the AST.
 		- Disadvantages
 			- Less control
 			- Need for compiler support
@@ -194,6 +197,8 @@ this is known as:
 	- Sometimes poorly documented
 	- Accuracy can be poor
 		- The common ones are usually okay
+		- Fundamentally, there must be little overhead to measure any given metric; making sure you leave an obscure functional unit bug-free is very difficult
+		- Inaccurate counts can still be useful, just need to perform some sanity checks
 
 ## Example: Microarchitectural bottleneck analysis
 

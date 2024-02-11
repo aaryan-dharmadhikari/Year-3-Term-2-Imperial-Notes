@@ -63,7 +63,7 @@
       "use-yaml-key-to-keep-track-of-old-filename-or-heading": true
     },
     "capitalize-headings": {
-      "enabled": false,
+      "enabled": true,
       "style": "Title Case",
       "ignore-case-words": true,
       "ignore-words": "macOS, iOS, iPhone, iPad, JavaScript, TypeScript, AppleScript, I",
@@ -97,15 +97,15 @@
       "ignore-words": ""
     },
     "blockquote-style": {
-      "enabled": false,
+      "enabled": true,
       "style": "space"
     },
     "convert-bullet-list-markers": {
       "enabled": true
     },
     "default-language-for-code-fences": {
-      "enabled": false,
-      "default-language": ""
+      "enabled": true,
+      "default-language": "python"
     },
     "emphasis-style": {
       "enabled": false,
