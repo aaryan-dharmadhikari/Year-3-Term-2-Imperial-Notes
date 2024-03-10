@@ -40,7 +40,7 @@ This can be quite significant for larger K.
 - Remove high-frequency signal (reduce noise)
 - Produce smooth but blurrier image as a result
 
-## Types of filters
+## Types of Filters
 - Identity filter
 - Low-pass or smoothing filters 
 	- Moving average filter  
@@ -49,7 +49,7 @@ This can be quite significant for larger K.
 - Denoising filters
 	- Median filter 
 - …
-## Identity filter
+## Identity Filter
 ![[Pasted image 20240118091225.png]]
 Useful later on…
 ## Gaussian Filter
@@ -59,18 +59,18 @@ The 2D Gaussian filter is a separable filter, equivalent to two 1D Gaussian filt
 Output:
 ![[Pasted image 20240118091458.png]]
 
-## Low-pass vs high-pass
+## Low-pass Vs High-pass
 - The moving average filter and Gaussian filter smooth or blur the image, keeping the low-frequency signals.
 - They are called low-pass filters or smoothing filters.
     
 - There are some filters that sharpen the image and highlight the high-frequency signals.
 - They are called high-pass filters or sharpening filters.
 
-## High Frequency signals
+## High Frequency Signals
 ![[Pasted image 20240118091644.png]]
 We have Identity, which is high frequency; and uniform matrix, which is low filter: by using them, we have a high-pass filter.
 
-## Median filter
+## Median Filter
 - non-linear: no longer calculating some weighted sum
 - used for denoising
 - Done by moving sliding window, taking median from all values in current window

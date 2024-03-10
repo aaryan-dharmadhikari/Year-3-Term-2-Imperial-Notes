@@ -1,3 +1,5 @@
+PREV [[Interest Point Detection I]]
+
 Recall Harris Detector is not invariant to scale
 **How do we deal with this?**
 ![[Pasted image 20240129100831.png]]
@@ -65,3 +67,5 @@ Recall Harris Detector is not invariant to scale
 #### Interest Point Detectors
 ![[Pasted image 20240129124236.png]]
 ![[Pasted image 20240129124243.png]]
+
+NEXT [[Feature Description I]]

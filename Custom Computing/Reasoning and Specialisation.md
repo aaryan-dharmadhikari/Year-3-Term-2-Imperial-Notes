@@ -1,6 +1,8 @@
+PREV [[Grid components and Combinators]]
 ![[Pasted image 20240129140934.png]]
 ![[Pasted image 20240129141110.png]]
 - Useful for proving behaviour for reuse; important for library design
+- **POINTWISE FOR BASE CASE, POINTFREE FOR INDUCTIVE**
 ## Pointwise Proof
 ![[Pasted image 20240129141709.png]]
 - easier to use pointwise (ie involving a, b, c, d)
@@ -22,3 +24,4 @@
 ![[Pasted image 20240129144700.png]]
 ![[Pasted image 20240129144740.png]]
 - Wayne used this in practice to speedup a process from $O(N)$ to $O(\log{N})$
+NEXT [[Sequential Design and Pipelining]]

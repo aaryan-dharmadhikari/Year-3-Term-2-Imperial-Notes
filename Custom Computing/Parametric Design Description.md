@@ -61,7 +61,7 @@ There exists is similar to Haskell `where`
 **Parallel Composition**
 ![[Pasted image 20240117103930.png]]
 Independent operations of two blocks without communication between them
-Law: parallel composition of series composition $\xleftrightarrow$ series composition of parallel composition
+Law: parallel composition of series composition $\leftrightarrow$ series composition of parallel composition
 
 **Useful Abbreviations**
 ![[Pasted image 20240117104240.png]]

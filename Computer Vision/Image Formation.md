@@ -1,6 +1,5 @@
 PREV [[Computer Vision/Introduction]]
 
-
 ![[Pasted image 20240115100557.png]]
 
 Lighting:

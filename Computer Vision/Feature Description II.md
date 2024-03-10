@@ -16,7 +16,7 @@
 ![[Pasted image 20240205093301.png]]
 - these 4 values can be used as above to demonstrate how they are valuable
 ![[Pasted image 20240205093523.png]]
-#### Can we do even better
+### Can We Do even Better
 ![[Pasted image 20240205093606.png]]
 ![[Pasted image 20240205093612.png]]
 ## Binary Robust Independent Elementary Features (BRIEF)
@@ -27,7 +27,7 @@
 - This is used ACROSS images to compare distances
 ![[Pasted image 20240205095008.png]]
 ![[Pasted image 20240205095204.png]]![[Pasted image 20240205095208.png]]
-### Other strategies for speedup
+### Other Strategies for Speedup
 ![[Pasted image 20240205095216.png]]
 ### Feature Descriptor
 ![[Pasted image 20240205100525.png]]

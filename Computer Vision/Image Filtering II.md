@@ -1,4 +1,4 @@
-## How to describe filtering mathematically?
+## How to Describe Filtering Mathematically?
 - Signal processing  
 - Filtering as convolution
 
@@ -7,7 +7,7 @@
 Or more abstractly:
 ![[Pasted image 20240118093256.png]]
 
-## Filtering in signal processing
+## Filtering in Signal Processing
 - Filtering is studies in depth in signal processing, which:
 	- removes unwanted components/features from signals
 	- enhances desired features
@@ -15,7 +15,7 @@ It can be done on a hardware device (eg guitar pedals) or via software (eg Garag
 
 **Filtering can be done on arbitrary dimension signals; from audio to radar imagery**
 
-## Impulse response
+## Impulse Response
 Impulse response is the output of a filter when the input is an impulse signal
 
 For continuous signal, an impulse is a Dirac delta function $\delta (x)$
@@ -27,7 +27,7 @@ For discrete signal, it is a Kronecker delta function $\delta[x]$
 - The impulse response h completely characterises a linear time-invariant filter. As along as we know h, we can calculate the output signal 𝑦, given any input 𝑥.
 - In signal processing, we often denote a filter by its impulse response function h.
 
-## Time-invariant system
+## Time-invariant System
 Most filters we've seen thus far are **linear** and **time-invariant**.
 ![[Pasted image 20240118094051.png]]
 ![[Pasted image 20240118094059.png]]
@@ -35,11 +35,11 @@ As we can see; if the same input is given at different times, the output is the 
 - $g[n] = 10 \cdot f[n]$ is time-invariant, amplifies input by constant step
 - $g[n] = n \cdot [n]$ is not time-invariant, output depends on time step n
 
-## Linear systems
+## Linear Systems
 ![[Pasted image 20240118094619.png]]
 - if a system is linear, combining two inputs linearly leads to the output being combined linearly:
 	$output(\alpha f_{1[n]} + \beta f_{2[n]}= \alpha g_{1[n]} + \beta g_2[n] )$
-## Linear, time-invariant systems
+## Linear, Time-invariant Systems
 - Theory and methods are well developed for linear time-invariant systems.
 - For such systems, impulse response $h$ completely characterises how the system works.
 - Thus given input $f$ and impulse response $h$; we can derive $g$ and define this output as a *convolution.*
@@ -58,7 +58,7 @@ We know $f$ and $h$ so we can uniquely characterise $g$
 ![[Pasted image 20240122090952.png]]
 This can clearly be shown via substitution of variables (let $k = n - m$, …)
 
-## Example of convolution
+## Example of Convolution
 ![[Pasted image 20240122091102.png]]
 This is a simple moving average of a vector of dimension 3
 
@@ -92,7 +92,9 @@ Before we shift and repeat.
 ![[Pasted image 20240122092709.png]]
 ![[Pasted image 20240122092823.png]]
 
-We used this earlier to improve the complexity of average: (TODO: DO IN CW)
+We used this earlier to improve the complexity of average:
 ![[Pasted image 20240122092857.png]]
 
 ![[Pasted image 20240122093156.png]]
+
+NEXT [[Edge Detection]]

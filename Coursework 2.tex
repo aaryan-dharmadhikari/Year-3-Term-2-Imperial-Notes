@@ -1,0 +1,248 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\newenvironment{Shaded}{}{}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.49,0.56,0.16}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\BuiltInTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.53,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.56,0.13,0.00}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.73,0.13,0.13}{\textit{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{1.00,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.25,0.63,0.44}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.02,0.16,0.49}{#1}}
+\newcommand{\ImportTok}[1]{\textcolor[rgb]{0.00,0.50,0.00}{\textbf{#1}}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.40,0.40,0.40}{#1}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.00,0.44,0.13}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.74,0.48,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.73,0.40,0.53}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.10,0.09,0.49}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.25,0.44,0.63}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.38,0.63,0.69}{\textbf{\textit{#1}}}}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\author{}
+\date{}
+
+\begin{document}
+
+\subsection{1 Synchronisation
+Primitives}\label{synchronisation-primitives}
+
+\subsubsection{1.1 Question: Execution order (1) {[}5
+marks{]}}\label{question-execution-order-1-5-marks}
+
+Possible orderings are:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{1122}
+\DecValTok{1212}
+\DecValTok{1221}
+\DecValTok{2211}
+\DecValTok{2121}
+\DecValTok{2112}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{1.2 Question: Execution order (2) {[}5
+marks{]}}\label{question-execution-order-2-5-marks}
+
+Possible orderings are:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DecValTok{1122}
+\DecValTok{2211}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{1.3 Question: User-level Implementation {[}20
+marks{]}}\label{question-user-level-implementation-20-marks}
+
+\paragraph{Constructor}\label{constructor}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mysem}\OperatorTok{(}\DataTypeTok{uint32\_t}\NormalTok{ init\_value}\OperatorTok{):}\NormalTok{ counter}\OperatorTok{(}\NormalTok{init\_value}\OperatorTok{)} \OperatorTok{\{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{Acquire}\label{acquire}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{void}\NormalTok{ acquire}\OperatorTok{()} \OperatorTok{\{}
+  \ControlFlowTok{while} \OperatorTok{(}\KeywordTok{true}\OperatorTok{)} \OperatorTok{\{}
+    \KeywordTok{auto}\NormalTok{ current }\OperatorTok{=}\NormalTok{ counter}\OperatorTok{.}\NormalTok{load}\OperatorTok{();}
+    \ControlFlowTok{if} \OperatorTok{(}\NormalTok{counter }\OperatorTok{!=} \DecValTok{0} \OperatorTok{\&\&}\NormalTok{ counter}\OperatorTok{.}\NormalTok{compare\_exchange\_weak}\OperatorTok{(}\NormalTok{current}\OperatorTok{,}\NormalTok{ current }\OperatorTok{{-}} \DecValTok{1}\OperatorTok{))} \OperatorTok{\{}
+      \ControlFlowTok{return}\OperatorTok{;}
+    \OperatorTok{\}}
+  \OperatorTok{\}}
+\OperatorTok{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{Release}\label{release}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{void}\NormalTok{ release}\OperatorTok{()} \OperatorTok{\{}\NormalTok{ counter}\OperatorTok{.}\NormalTok{fetch\_add}\OperatorTok{(}\DecValTok{1}\OperatorTok{);} \OperatorTok{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{1.4 Question: Hybrid Implementation {[}15
+marks{]}}\label{question-hybrid-implementation-15-marks}
+
+\paragraph{Constructor}\label{constructor-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{mysem}\OperatorTok{(}\DataTypeTok{uint32\_t}\NormalTok{ init\_value}\OperatorTok{):}\NormalTok{ counter}\OperatorTok{(}\NormalTok{init\_value}\OperatorTok{)} \OperatorTok{\{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{Acquire}\label{acquire-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{void}\NormalTok{ acquire}\OperatorTok{()} \OperatorTok{\{}
+  \ControlFlowTok{while} \OperatorTok{(}\KeywordTok{true}\OperatorTok{)} \OperatorTok{\{}
+    \ControlFlowTok{for} \OperatorTok{(}\KeywordTok{auto}\NormalTok{ i }\OperatorTok{=} \DecValTok{0}\OperatorTok{;}\NormalTok{ i }\OperatorTok{\textless{}} \DecValTok{100}\OperatorTok{;}\NormalTok{ i}\OperatorTok{++)} \OperatorTok{\{}
+      \KeywordTok{auto}\NormalTok{ current }\OperatorTok{=}\NormalTok{ counter}\OperatorTok{.}\NormalTok{load}\OperatorTok{();}
+      \ControlFlowTok{if} \OperatorTok{(}\NormalTok{counter }\OperatorTok{!=} \DecValTok{0} \OperatorTok{\&\&}\NormalTok{ counter}\OperatorTok{.}\NormalTok{compare\_exchange\_weak}\OperatorTok{(}\NormalTok{current}\OperatorTok{,}\NormalTok{ current }\OperatorTok{{-}} \DecValTok{1}\OperatorTok{))} \OperatorTok{\{}
+          \ControlFlowTok{return}\OperatorTok{;}
+      \OperatorTok{\}}
+    \OperatorTok{\}}
+    \DataTypeTok{uint32\_t}\OperatorTok{*}\NormalTok{ counter\_ptr }\OperatorTok{=} \KeywordTok{reinterpret\_cast}\OperatorTok{\textless{}}\DataTypeTok{uint32\_t}\OperatorTok{*\textgreater{}(\&}\NormalTok{counter}\OperatorTok{);}
+\NormalTok{    syscall}\OperatorTok{(}\NormalTok{SYS\_futex}\OperatorTok{,}\NormalTok{ counter\_ptr}\OperatorTok{,}\NormalTok{ FUTEX\_WAIT}\OperatorTok{,} \DecValTok{0}\OperatorTok{,} \KeywordTok{nullptr}\OperatorTok{,} \KeywordTok{nullptr}\OperatorTok{,} \DecValTok{0}\OperatorTok{);}
+  \OperatorTok{\}}
+\OperatorTok{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\paragraph{Release}\label{release-1}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\DataTypeTok{void}\NormalTok{ release}\OperatorTok{()} \OperatorTok{\{}
+\NormalTok{  counter}\OperatorTok{.}\NormalTok{fetch\_add}\OperatorTok{(}\DecValTok{1}\OperatorTok{);}
+  \DataTypeTok{uint32\_t} \OperatorTok{*}\NormalTok{counter\_ptr }\OperatorTok{=} \KeywordTok{reinterpret\_cast}\OperatorTok{\textless{}}\DataTypeTok{uint32\_t} \OperatorTok{*\textgreater{}(\&}\NormalTok{counter}\OperatorTok{);}
+\NormalTok{  syscall}\OperatorTok{(}\NormalTok{SYS\_futex}\OperatorTok{,}\NormalTok{ counter\_ptr}\OperatorTok{,}\NormalTok{ FUTEX\_WAKE}\OperatorTok{,} \DecValTok{1}\OperatorTok{,} \KeywordTok{nullptr}\OperatorTok{,} \KeywordTok{nullptr}\OperatorTok{,} \DecValTok{0}\OperatorTok{);}
+\OperatorTok{\};}
+\end{Highlighting}
+\end{Shaded}
+
+\subsubsection{1.5 Question: A Better Hybrid Implementation {[}5
+marks{]}}\label{question-a-better-hybrid-implementation-5-marks}
+
+Add an atomic integer
+\texttt{std::atomic\textless{}uint32\_t\textgreater{}\ sleeping}, which
+tracks the number of threads currently asleep in the futex. This can be
+incremented in \texttt{acquire} before waiting on the mutex and
+decremented after waking up. In the case \texttt{sleeping} is 0, we can
+skip calling \texttt{FUTEX\_WAIT}. \#\# 2 Networked Service Design
+\#\#\# 2.1 Network Modelling {[}15 marks{]} Let us first look at
+requests: - 90:10 GET vs SET - Thus
+\(0.9 * (512 + 1) + 0.1 * (1 + 512 + 1024) = 615.4\:Bytes\) is the
+average size of a request - Given
+\(10\:Gbps = 10 * 1024^{3} = 10,737,418,240\: bps\) throughput, this
+means request throughput is
+\(10,737,418,240 / 615.4 = 1,747,228.5351645133 \approx 1,747,228\:requests/sec\:(taken\; floor)\)
+Now responses: - Similarly, \(0.9 * 1024 + 0.1 * 1 = 921.7\:Bytes\) is
+the average size of a response - Thus throughput is
+\(10,737,418,240 / 921.7 = 11,649,580.3840729088 \approx 11,649,580\:responses/sec\:(taken\; floor)\)
+Since we are limited by the larger average size, responses are going to
+limit throughput, thus the maximum throughput is
+\(11,649,580\:requests\; and\; responses/sec\) \#\#\# 2.2 CPU Modeling
+{[}20 marks{]} A single core can process: -
+\(\frac{10^{6}}{200} = 5000\: GETs/sec\) -
+\(\frac{10^{6}}{500} = 2000\: SETs/sec\) - Given the previous 90:10
+ratio, that means average no requests processed is given by
+\(5000 * 0.9 + 2000 * 0.1 = 4,700\:requests/sec\) Therefore, to get no
+of cores required, we take
+\(\lceil \frac{130,000}{4,700} \rceil = \lceil 27.6595744681 \rceil = 28\: cores\)
+\#\#\# 2.3 Cutting Corners {[}15 marks{]} \#\#\#\# 1000 req/sec, 100\%
+GETs → Average Latency: 200 Μsec For this particular experiment, results
+are unlikely to vary with a lock-free implementation. 1000 requests is
+far less than the 10,000 buckets in our system and thus we should expect
+basically no contention for buckets; we should therefore expect the same
+average latency. \#\#\#\# 100000 req/sec, 100\% GETs → Average Latency:
+207 Μsec We should expect slightly lower average latency in a lock-free
+implementation. As the number of requests is now much higher, we can
+expect multiple requests per bucket and as such the overhead from
+acquiring a read lock will be slightly higher than in a lock-free
+implementation. \#\#\#\# 100000 req/sec, 50\% GETs, 50\% SETs → Average
+Latency: 475 Μsec We would expect significantly lower latency in a
+lock-free implementation: due to SET requests requiring exclusive access
+to a bucket, there will be lots of contention and waiting for a given
+bucket- a problem which would not exist in a lock-free implementation.
+
+\end{document}

@@ -56,7 +56,7 @@
 ![[Pasted image 20240129094851.png]]
 **Detection**
 ![[Pasted image 20240129100212.png]]
-- Things other than corners also illicit changes
+- Things other than corners also ellicit changes
 ![[Pasted image 20240129100553.png]]
 - Is invariant to rotation
 ![[Pasted image 20240129100615.png]]
@@ -65,3 +65,5 @@
 - Harris detector finds interest points with strong responses at corners and blobs.
 - It calculates the change of intensities within a small window when it is shifted in the image, which can be quantified by local image derivatives.
 - It is rotation-invariant, but not scale-invariant.
+
+NEXT [[Interest Point Detection II]]

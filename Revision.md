@@ -1,0 +1,35 @@
+Custom Computing: 
+- Wayne
+	- [ ] Ex1
+	- [ ] Ex2
+	- [ ] Ex3
+	- [ ] Ex4
+	- [ ] Ex5
+	- [ ] Ex6
+- Timmy T
+	- [ ] Ex7
+	- [ ] Ex8
+	- [ ] Ex9
+	- [ ] Ex10
+	- [ ] Ex11
+Comp Vis:
+- [ ] Tutorial 1
+	- Revisit:
+		- Q5
+- [ ] Tutorial 2
+	- Revisit:
+		- Q4
+		- Q5
+- [ ] Tutorial 3
+	- Revisit
+		- Q2
+		- Q3
+- [ ] Tutorial 4
+	- Revisit
+		- Q3
+		- Q4: ![[Pasted image 20240309171437.png]]
+- [ ] Tutorial 5
+	- IONO SHIT ABOUT MOTION AND CAMERA; TODO
+SPE:
+- [ ] Look at Holger revision lecture
+- [ ] Look at Luis tutorials

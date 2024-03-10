@@ -29,7 +29,7 @@ From the large differences, we can denote discontinuties
 ## How about 2D
 
 We want to find difference between neighbouring pixels; these are naturally a bit more involved
-## Prewitt filter
+## Prewitt Filter
 ![[Pasted image 20240122101009.png]]
 Essentially same as 1D filter; requires us to pick a direction.
 Remember that we flip, so the above is in fact left to right; this is just by definition, it should not matter too much which direction we go with.
@@ -39,7 +39,7 @@ We usually use 3x3 due to the $[1, 0, -1]$ seen before
 This can be separated:
 ![[Pasted image 20240122101050.png]]
 
-## Sobel filter
+## Sobel Filter
 ![[Pasted image 20240122101413.png]]
 This filter oversamples the central x or y axis line
 
@@ -112,7 +112,7 @@ It carefully designs the image features (e.g. Gaussian filtering + image gradien
 - Gradient orientation and non-maximum suppression to find the exact location of edges.  
 - Hysteresis thresholding to find weak edges.
 
-## Learning-based edge detection
+## Learning-based Edge Detection
 ![[Pasted image 20240122104657.png]]
 Results using approach shown in above image:
 ![[Pasted image 20240122104726.png]]
@@ -122,3 +122,5 @@ There are many other approaches, eg using CNNs
 - Edge detection is a fundamental problem in image processing and computer vision.
 - Edges provide important low-level features, where discontinuities occur, for both human vision system and computer vision for analysing and understanding images.
 - In the following lectures, we will explore other types of features, such as describing the features for interest points, for regions or for an entire image.
+
+NEXT [[Hough Transformations]]

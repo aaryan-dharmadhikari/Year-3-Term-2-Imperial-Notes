@@ -1,3 +1,4 @@
+PREV [[Pipelining - clustering and slowdown]]
 ![[Pasted image 20240205140228.png]]
 - Homomorphism in the context of parametric circuit specification refers to the property where the mapping between input and output circuits preserves the structure and relationships, allowing the parametric specifications to be consistently transformed across different instances of the circuit.
 ![[Pasted image 20240205140910.png]]
@@ -20,7 +21,7 @@
 ![[Pasted image 20240205144349.png]]
 - Here there is delay equating to $3 * R$ which is inefficient
 ![[Pasted image 20240205145008.png]]
-- Now only 2R
+- Now only $2 * R$
 ![[Pasted image 20240205145023.png]]
 ![[Pasted image 20240205145428.png]]
 ![[Pasted image 20240205145530.png]]

@@ -1,3 +1,4 @@
+PREV [[Reasoning and Specialisation]]
 ## Systolic Arrays
 ![[Pasted image 20240129150644.png]]
 - **Systolic Arrays** are characterised by an efficient architecture facilitating data streaming, like blood pumping through organs in our body. They have been used in many high performance applications such as the Google TPU, and they suit FPGA technology which offers effective implementation based on the array of fine- grained and coarse-grained computing resources. Although systolic arrays have many benefits, their systematic and parametric development and verification have been challenging.
@@ -42,3 +43,4 @@
 - The above is fully pipelined
 ![[Pasted image 20240129155126.png]]
 - Could also fully pipeline via diagonal contours; this is less cluttered than above
+NEXT [[Pipelining - clustering and slowdown]]

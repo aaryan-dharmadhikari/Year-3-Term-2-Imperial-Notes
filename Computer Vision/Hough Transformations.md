@@ -1,9 +1,10 @@
+PREV [[Edge Detection]]
 ![[Pasted image 20240125090410.png]]
 
 ![[Pasted image 20240125090417.png]]
 
 ![[Pasted image 20240125090427.png]]
-## Basically GCSE maths
+## Basically GCSE Maths
 ![[Pasted image 20240125090437.png]]
 
 ![[Pasted image 20240125090447.png]]
@@ -23,10 +24,10 @@
 
 ![[Pasted image 20240125091430.png]]
 ![[Pasted image 20240125091452.png]]
-- we know from normal form we can express any 2D line; $\theta$  is bounded by $[0, \pi)$
+- we know from normal form we can express any 2D line; $\theta$ is bounded by $[0, \pi)$
 **For the same space:**
 ![[Pasted image 20240125091638.png]]
-## Line detection by Hough transformation
+## Line Detection by Hough Transformation
 ![[Pasted image 20240125091759.png]]
 - Pretty expensive operation as all possible lines to be explored per edge point
 ![[Pasted image 20240125092220.png]]
@@ -47,3 +48,5 @@ By fixing $r$, we can reduce set of solutions so the answer is not ridiculously 
 ![[Pasted image 20240125093527.png]]
 
 INCOMPLETE
+
+NEXT [[Interest Point Detection I]]

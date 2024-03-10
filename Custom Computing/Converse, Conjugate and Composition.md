@@ -63,3 +63,5 @@ This is a simple recursive definition of a binary tree shaped array. However, it
 Essentially, use `half` to create a recursive parsing mechanism. This is similar to the reduce operator in map-reduce. 
 ### Triangular Array
 ![[Pasted image 20240122144949.png]]
+
+NEXT [[Grid components and Combinators]]
